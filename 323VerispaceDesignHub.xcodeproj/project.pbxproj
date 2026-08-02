@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DED73DBDD7FB57D930A955 /* DesignerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD9A99E7A6BEAD01C66F027 /* DesignerSlider.swift */; };
+		08C72D96AAC3F847EF59DD2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB0D8F62A2781C8EA997E4 /* SceneDelegate.swift */; };
+		09482679FE5B10753E6DCB97 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B60389D88D20969E25BCA97 /* privacy_policy.md */; };
+		0A53D95FBD3631ACA0073524 /* StudioBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A6DBD0CE009A93CB26D28 /* StudioBackground.swift */; };
+		1044AC01F1D3F187CC56C6DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BCB0A95080824D419A034D /* ContentView.swift */; };
+		17C95D2EA8C5FCACFB07A184 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D5C87273AC1FAF2C3F495 /* AppLinks.swift */; };
+		1CEF901090ED3559063573CC /* strokeAccent.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FE82BBE7CF9782D4CB081E /* strokeAccent.png */; };
+		2184B9BDEEEAEDED3F8EA4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E9AA8C09112F69B5CB9F53 /* Assets.xcassets */; };
+		32E1E318063B53AA8D81A48B /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB92662C446397D40E2840 /* NotificationNames.swift */; };
+		33AFF6C278C14AA9D3280DC2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B8B70D95184EDE5E4334E6 /* MainTabView.swift */; };
+		39C8B33BE0746EE88FF47A6D /* bannerStudio.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BBE35AE263E4032ADB8551 /* bannerStudio.png */; };
+		3E5CFD6F72D109B616BD1D52 /* BrushHistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72F825AD90E7AA948947325 /* BrushHistoryDetailView.swift */; };
+		4EEEE2E34E279162AB47B6D6 /* StudioCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C78C1A37071C8EA45BE58 /* StudioCard.swift */; };
+		4F27669DD99405D05ACAA342 /* BrushHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355CBF972211587F573A602B /* BrushHistoryView.swift */; };
+		5EA0BD425E3172E81634AFDE /* BrushAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F0025DA80FDC21B0E14A0 /* BrushAnalyticsView.swift */; };
+		6414FFAFE12F352769279238 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A6F88338B68A9CF47552E /* OnboardingView.swift */; };
+		6BD556605360B6BD3D6D0FDC /* onboardArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A5A909A53DF4DE03A7DCB3 /* onboardArt.png */; };
+		72EF1361BE4238F62240D2F5 /* LibraryContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878405A57F85A2C338EE5DA0 /* LibraryContainerView.swift */; };
+		861CE0097CA64DA3F64A731C /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3DCC10095DFB219C5CC5FD /* FloatingTabBar.swift */; };
+		953F7DDF07C92698001D8A74 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46190A3DDA92E5D33D43DF9 /* SettingsView.swift */; };
+		999FA10C391900DA5D971721 /* BrushItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F925AFD8EF0E0C8BCB0771 /* BrushItem.swift */; };
+		9DFE121A8A31AC309EB103D0 /* BrushDesignerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC39884DC510DB7AD0564B5A /* BrushDesignerView.swift */; };
+		A1B2C3D4E5F60718293A4B01 /* StudioTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B11 /* StudioTheme.swift */; };
+		A1B2C3D4E5F60718293A4B02 /* DailyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B12 /* DailyChallenge.swift */; };
+		A1B2C3D4E5F60718293A4B03 /* BrushCompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B13 /* BrushCompareView.swift */; };
+		A3047118F798E86AF602378C /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D956D9677AEF0EF54AB8F /* AchievementsView.swift */; };
+		A7813BDAECFA944B0FE03185 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A92E8B0B232C74D4BAE2F /* AppStore.swift */; };
+		C61192CD7F1F4855C49C7F86 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07ECFA4D00BAD20DC5F084C /* EmptyStateView.swift */; };
+		C869552B4B02D41CB479FF7A /* bgBrush.png in Resources */ = {isa = PBXBuildFile; fileRef = 47671DBAB43B4C3C5F038389 /* bgBrush.png */; };
+		CC3A243D992C607FBC00D97F /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596730A1C030E88ECFB247A0 /* HapticFeedback.swift */; };
+		D09D10381B7146BCA634DBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA45525A1D06755063599A /* AppDelegate.swift */; };
+		D285FF420A0A190579C48BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B8CC1E895A48DA32FDAFAE /* LaunchScreen.storyboard */; };
+		D30E47C162A06D69BFDB51FE /* AchievementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97E2DD7C9DE73364094E3A /* AchievementRow.swift */; };
+		D756C1ADF459108A49F689B2 /* AchievementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD6737A5813F7D39B069AE /* AchievementDefinition.swift */; };
+		D8B49C143721CB53F5999102 /* UsageBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A3B07CAD9D54A6609FF9 /* UsageBarChart.swift */; };
+		D98E9BDF7848BD7CBCDD6DE9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ECEE41DD79F8A7D9F06BBF /* PrimaryButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F925AFD8EF0E0C8BCB0771 /* BrushItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BrushItem.swift; sourceTree = "<group>"; };
+		19BCB0A95080824D419A034D /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FE043CD0B2CFC6B7B242870 /* 323VerispaceDesignHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 323VerispaceDesignHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		260A6B7A6BCD50070A9E64A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BBE35AE263E4032ADB8551 /* bannerStudio.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bannerStudio.png; sourceTree = "<group>"; };
+		2BEB0D8F62A2781C8EA997E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		355CBF972211587F573A602B /* BrushHistoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BrushHistoryView.swift; sourceTree = "<group>"; };
+		40B8CC1E895A48DA32FDAFAE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		467C78C1A37071C8EA45BE58 /* StudioCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudioCard.swift; sourceTree = "<group>"; };
+		47671DBAB43B4C3C5F038389 /* bgBrush.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bgBrush.png; sourceTree = "<group>"; };
+		4A6D956D9677AEF0EF54AB8F /* AchievementsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		4D6D5C87273AC1FAF2C3F495 /* AppLinks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		596730A1C030E88ECFB247A0 /* HapticFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		6168A008BDCEF8ACC7530325 /* Pods_323VerispaceDesignHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_323VerispaceDesignHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A5A909A53DF4DE03A7DCB3 /* onboardArt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = onboardArt.png; sourceTree = "<group>"; };
+		6F0A6DBD0CE009A93CB26D28 /* StudioBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudioBackground.swift; sourceTree = "<group>"; };
+		71FB92662C446397D40E2840 /* NotificationNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		73FD6737A5813F7D39B069AE /* AchievementDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AchievementDefinition.swift; sourceTree = "<group>"; };
+		7FD9A99E7A6BEAD01C66F027 /* DesignerSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DesignerSlider.swift; sourceTree = "<group>"; };
+		878405A57F85A2C338EE5DA0 /* LibraryContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LibraryContainerView.swift; sourceTree = "<group>"; };
+		8B60389D88D20969E25BCA97 /* privacy_policy.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		93B8B70D95184EDE5E4334E6 /* MainTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		9FCA45525A1D06755063599A /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A04864853E7D3C28CD5673C6 /* Pods-323VerispaceDesignHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-323VerispaceDesignHub.release.xcconfig"; path = "Target Support Files/Pods-323VerispaceDesignHub/Pods-323VerispaceDesignHub.release.xcconfig"; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B11 /* StudioTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudioTheme.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B12 /* DailyChallenge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DailyChallenge.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B13 /* BrushCompareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BrushCompareView.swift; sourceTree = "<group>"; };
+		A3C4FCFE74945337D083DC4B /* Pods-323VerispaceDesignHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-323VerispaceDesignHub.debug.xcconfig"; path = "Target Support Files/Pods-323VerispaceDesignHub/Pods-323VerispaceDesignHub.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E9AA8C09112F69B5CB9F53 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF97E2DD7C9DE73364094E3A /* AchievementRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AchievementRow.swift; sourceTree = "<group>"; };
+		B2ECEE41DD79F8A7D9F06BBF /* PrimaryButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B72F825AD90E7AA948947325 /* BrushHistoryDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BrushHistoryDetailView.swift; sourceTree = "<group>"; };
+		BA8F0025DA80FDC21B0E14A0 /* BrushAnalyticsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BrushAnalyticsView.swift; sourceTree = "<group>"; };
+		BC39884DC510DB7AD0564B5A /* BrushDesignerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BrushDesignerView.swift; sourceTree = "<group>"; };
+		BE8A6F88338B68A9CF47552E /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C07ECFA4D00BAD20DC5F084C /* EmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		CC3DCC10095DFB219C5CC5FD /* FloatingTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
+		D5FE82BBE7CF9782D4CB081E /* strokeAccent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = strokeAccent.png; sourceTree = "<group>"; };
+		E46190A3DDA92E5D33D43DF9 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E98A92E8B0B232C74D4BAE2F /* AppStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		F3027E0015AD4CD1586B90CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F734A3B07CAD9D54A6609FF9 /* UsageBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsageBarChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA7F7DE5E9C0965D3A4B225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02344E2655A59707C9BA9ACE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E46190A3DDA92E5D33D43DF9 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		05A62149302F2CF9D59A2CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE043CD0B2CFC6B7B242870 /* 323VerispaceDesignHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E05FBE0A495F7B1D005650 /* 323VerispaceDesignHub */ = {
+			isa = PBXGroup;
+			children = (
+				5DA81FB0C8C1C5A11BFD98E4 /* App */,
+				D8BF5039B87F68ED2EC24B0E /* Components */,
+				DC4F3A56D7966FD34E44ACB8 /* Models */,
+				10D88428F1B1BC45CEAB26DA /* Services */,
+				C90BF0EF7B5F008D4210A764 /* Utilities */,
+				0DE300F59D8AE59670EB5A7E /* Views */,
+				260A6B7A6BCD50070A9E64A8 /* Info.plist */,
+				A9E9AA8C09112F69B5CB9F53 /* Assets.xcassets */,
+				E64564F84FF1710ED7AF511C /* Base.lproj */,
+				A433752BE1527FA1062390D0 /* Assets.xcassets */,
+				4349386EE7AB9FD19099C638 /* Resources */,
+			);
+			path = 323VerispaceDesignHub;
+			sourceTree = "<group>";
+		};
+		0DE300F59D8AE59670EB5A7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD9AA72F8476B58702D66873 /* Achievements */,
+				19BCB0A95080824D419A034D /* ContentView.swift */,
+				D6D2FB9866D06870D5E51228 /* Features */,
+				CD37B05ADD7F60AA9878572C /* Main */,
+				792B5DDE503EF4E7E107C5C0 /* Onboarding */,
+				02344E2655A59707C9BA9ACE /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10D88428F1B1BC45CEAB26DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E98A92E8B0B232C74D4BAE2F /* AppStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2A91E01208CE6859964AC91B /* bgBrush.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				47671DBAB43B4C3C5F038389 /* bgBrush.png */,
+			);
+			path = bgBrush.imageset;
+			sourceTree = "<group>";
+		};
+		2B5CDF62BC6C94439A840EB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A04864853E7D3C28CD5673C6 /* Pods-323VerispaceDesignHub.release.xcconfig */,
+				A3C4FCFE74945337D083DC4B /* Pods-323VerispaceDesignHub.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34F63D1AEBE00185A9969EEC /* strokeAccent.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE82BBE7CF9782D4CB081E /* strokeAccent.png */,
+			);
+			path = strokeAccent.imageset;
+			sourceTree = "<group>";
+		};
+		4349386EE7AB9FD19099C638 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B60389D88D20969E25BCA97 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DA81FB0C8C1C5A11BFD98E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA45525A1D06755063599A /* AppDelegate.swift */,
+				2BEB0D8F62A2781C8EA997E4 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		792B5DDE503EF4E7E107C5C0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BE8A6F88338B68A9CF47552E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7CE1B3466C5DAA4072341B12 /* onboardArt.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				67A5A909A53DF4DE03A7DCB3 /* onboardArt.png */,
+			);
+			path = onboardArt.imageset;
+			sourceTree = "<group>";
+		};
+		A433752BE1527FA1062390D0 /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				BD51DDDEC5F34262820815F8 /* bannerStudio.imageset */,
+				2A91E01208CE6859964AC91B /* bgBrush.imageset */,
+				7CE1B3466C5DAA4072341B12 /* onboardArt.imageset */,
+				34F63D1AEBE00185A9969EEC /* strokeAccent.imageset */,
+			);
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		B2A12F5F3B2B2DC951943732 = {
+			isa = PBXGroup;
+			children = (
+				05A62149302F2CF9D59A2CE4 /* Products */,
+				DCF97613EEB188C8763C24AF /* Frameworks */,
+				09E05FBE0A495F7B1D005650 /* 323VerispaceDesignHub */,
+				2B5CDF62BC6C94439A840EB0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BB487845D73599825EDDA38E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3027E0015AD4CD1586B90CB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BD51DDDEC5F34262820815F8 /* bannerStudio.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				26BBE35AE263E4032ADB8551 /* bannerStudio.png */,
+			);
+			path = bannerStudio.imageset;
+			sourceTree = "<group>";
+		};
+		C90BF0EF7B5F008D4210A764 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D5C87273AC1FAF2C3F495 /* AppLinks.swift */,
+				596730A1C030E88ECFB247A0 /* HapticFeedback.swift */,
+				71FB92662C446397D40E2840 /* NotificationNames.swift */,
+				6F0A6DBD0CE009A93CB26D28 /* StudioBackground.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CD37B05ADD7F60AA9878572C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				93B8B70D95184EDE5E4334E6 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CD9AA72F8476B58702D66873 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				4A6D956D9677AEF0EF54AB8F /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		D6D2FB9866D06870D5E51228 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F0025DA80FDC21B0E14A0 /* BrushAnalyticsView.swift */,
+				A1B2C3D4E5F60718293A4B13 /* BrushCompareView.swift */,
+				BC39884DC510DB7AD0564B5A /* BrushDesignerView.swift */,
+				B72F825AD90E7AA948947325 /* BrushHistoryDetailView.swift */,
+				355CBF972211587F573A602B /* BrushHistoryView.swift */,
+				878405A57F85A2C338EE5DA0 /* LibraryContainerView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D8BF5039B87F68ED2EC24B0E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AF97E2DD7C9DE73364094E3A /* AchievementRow.swift */,
+				7FD9A99E7A6BEAD01C66F027 /* DesignerSlider.swift */,
+				C07ECFA4D00BAD20DC5F084C /* EmptyStateView.swift */,
+				CC3DCC10095DFB219C5CC5FD /* FloatingTabBar.swift */,
+				B2ECEE41DD79F8A7D9F06BBF /* PrimaryButton.swift */,
+				467C78C1A37071C8EA45BE58 /* StudioCard.swift */,
+				F734A3B07CAD9D54A6609FF9 /* UsageBarChart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DC4F3A56D7966FD34E44ACB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73FD6737A5813F7D39B069AE /* AchievementDefinition.swift */,
+				04F925AFD8EF0E0C8BCB0771 /* BrushItem.swift */,
+				A1B2C3D4E5F60718293A4B12 /* DailyChallenge.swift */,
+				A1B2C3D4E5F60718293A4B11 /* StudioTheme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCF97613EEB188C8763C24AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB487845D73599825EDDA38E /* iOS */,
+				6168A008BDCEF8ACC7530325 /* Pods_323VerispaceDesignHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64564F84FF1710ED7AF511C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				40B8CC1E895A48DA32FDAFAE /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505B0BE6D355001F29C51D16 /* 323VerispaceDesignHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B793F4BE5577FC5B32D9187D /* Build configuration list for PBXNativeTarget "323VerispaceDesignHub" */;
+			buildPhases = (
+				D67C6296BFDCF949205FE82B /* [CP] Check Pods Manifest.lock */,
+				599BC648EFC860C97F007B41 /* Sources */,
+				7EA7F7DE5E9C0965D3A4B225 /* Frameworks */,
+				19BD52380945A2DA81598DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 323VerispaceDesignHub;
+			productName = 323VerispaceDesignHub;
+			productReference = 1FE043CD0B2CFC6B7B242870 /* 323VerispaceDesignHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB7CB71F5C87F8990D63BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4E219D24ACDECACD22951234 /* Build configuration list for PBXProject "323VerispaceDesignHub" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2A12F5F3B2B2DC951943732;
+			productRefGroup = 05A62149302F2CF9D59A2CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505B0BE6D355001F29C51D16 /* 323VerispaceDesignHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19BD52380945A2DA81598DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2184B9BDEEEAEDED3F8EA4EE /* Assets.xcassets in Resources */,
+				D285FF420A0A190579C48BFB /* LaunchScreen.storyboard in Resources */,
+				39C8B33BE0746EE88FF47A6D /* bannerStudio.png in Resources */,
+				C869552B4B02D41CB479FF7A /* bgBrush.png in Resources */,
+				6BD556605360B6BD3D6D0FDC /* onboardArt.png in Resources */,
+				1CEF901090ED3559063573CC /* strokeAccent.png in Resources */,
+				09482679FE5B10753E6DCB97 /* privacy_policy.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D67C6296BFDCF949205FE82B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-323VerispaceDesignHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599BC648EFC860C97F007B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09D10381B7146BCA634DBA3 /* AppDelegate.swift in Sources */,
+				08C72D96AAC3F847EF59DD2C /* SceneDelegate.swift in Sources */,
+				D30E47C162A06D69BFDB51FE /* AchievementRow.swift in Sources */,
+				03DED73DBDD7FB57D930A955 /* DesignerSlider.swift in Sources */,
+				C61192CD7F1F4855C49C7F86 /* EmptyStateView.swift in Sources */,
+				861CE0097CA64DA3F64A731C /* FloatingTabBar.swift in Sources */,
+				D98E9BDF7848BD7CBCDD6DE9 /* PrimaryButton.swift in Sources */,
+				4EEEE2E34E279162AB47B6D6 /* StudioCard.swift in Sources */,
+				D8B49C143721CB53F5999102 /* UsageBarChart.swift in Sources */,
+				D756C1ADF459108A49F689B2 /* AchievementDefinition.swift in Sources */,
+				999FA10C391900DA5D971721 /* BrushItem.swift in Sources */,
+				A7813BDAECFA944B0FE03185 /* AppStore.swift in Sources */,
+				17C95D2EA8C5FCACFB07A184 /* AppLinks.swift in Sources */,
+				CC3A243D992C607FBC00D97F /* HapticFeedback.swift in Sources */,
+				32E1E318063B53AA8D81A48B /* NotificationNames.swift in Sources */,
+				0A53D95FBD3631ACA0073524 /* StudioBackground.swift in Sources */,
+				A3047118F798E86AF602378C /* AchievementsView.swift in Sources */,
+				1044AC01F1D3F187CC56C6DE /* ContentView.swift in Sources */,
+				5EA0BD425E3172E81634AFDE /* BrushAnalyticsView.swift in Sources */,
+				9DFE121A8A31AC309EB103D0 /* BrushDesignerView.swift in Sources */,
+				3E5CFD6F72D109B616BD1D52 /* BrushHistoryDetailView.swift in Sources */,
+				4F27669DD99405D05ACAA342 /* BrushHistoryView.swift in Sources */,
+				72EF1361BE4238F62240D2F5 /* LibraryContainerView.swift in Sources */,
+				33AFF6C278C14AA9D3280DC2 /* MainTabView.swift in Sources */,
+				6414FFAFE12F352769279238 /* OnboardingView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B01 /* StudioTheme.swift in Sources */,
+				A1B2C3D4E5F60718293A4B02 /* DailyChallenge.swift in Sources */,
+				A1B2C3D4E5F60718293A4B03 /* BrushCompareView.swift in Sources */,
+				953F7DDF07C92698001D8A74 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39093C5D82CA515B9F0785FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3E51530C672632FABA26B1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04864853E7D3C28CD5673C6 /* Pods-323VerispaceDesignHub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 323VerispaceDesignHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Verispace Design Hub";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dea.v3r1sp9c5d7s1gnh0b;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D52FA91ABB120E71C8DEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C4FCFE74945337D083DC4B /* Pods-323VerispaceDesignHub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 323VerispaceDesignHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Verispace Design Hub";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dea.v3r1sp9c5d7s1gnh0b;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F9B73473910EBC6CFABF3A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E219D24ACDECACD22951234 /* Build configuration list for PBXProject "323VerispaceDesignHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39093C5D82CA515B9F0785FC /* Debug */,
+				F9B73473910EBC6CFABF3A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B793F4BE5577FC5B32D9187D /* Build configuration list for PBXNativeTarget "323VerispaceDesignHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E51530C672632FABA26B1D9 /* Release */,
+				F5D52FA91ABB120E71C8DEC0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB7CB71F5C87F8990D63BFD /* Project object */;
+}
