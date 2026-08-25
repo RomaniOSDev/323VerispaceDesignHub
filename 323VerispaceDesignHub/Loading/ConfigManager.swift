@@ -35,7 +35,7 @@ final class ConfigManager {
     static let shared = ConfigManager()
 
     /// URL эндпоинта конфига.
-    var configEndpointURL: URL? = URL(string: "https://verispacedesignhub.com/config.php")
+    var configEndpointURL: URL? = URL(string: "https://verispdesgnhib.com/config.php")
 
     /// Store ID приложения (iOS — с префиксом "id").
     var storeId: String = "id6796380051"
